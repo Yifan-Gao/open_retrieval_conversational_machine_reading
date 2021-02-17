@@ -15,7 +15,7 @@ Each sample in `train|dev|test` has the following attributes (Changes to the ori
 - `source_url`: The URL of the document containing the rule snippet.
 - **`snippet`**: In ShARC, it is the input support document, i.e. often a paragraph which contains some rules. **But we remove this in our dataset for our open-retrieval setting, you can refer to the `gole_snippet_id` to find the gold snippet.**
 - **`gole_snippet_id`**: the gold snippet this sample should refer to in the database `id2snippet.json`.
-- **`question`**: **Our rewritting** of the original in complete question in ShARC.
+- **`question`**: **Our rewritting** of the original incomplete and ambiguous question in ShARC.
 - `scenario`: Describes the context of the question.
 - `history`: The conversation history, i.e. a set of follow-up questions and their corresponding answers.
 - `evidence`: A list of relevant information that the system should extract from the user's scenario. This information should not be included in the input.
