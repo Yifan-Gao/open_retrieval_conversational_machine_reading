@@ -2,7 +2,7 @@
 
 OR-ShARC is an **Open-Retrieval** Conversational Machine Reading dataset focussing on answering high-level questions from texts on natural language rules. It is adapted from the [ShARC](https://sharc-data.github.io/data.html) dataset with a rewriting of all initial questions into their complete and unambiguous formats (redistributed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)).
 
-More details can be found on our [Technical report](https://arxiv.org/) (to-be-updated).
+More details can be found on our [Technical report](https://arxiv.org/abs/2102.08633).
 
 ## Dataset
 
