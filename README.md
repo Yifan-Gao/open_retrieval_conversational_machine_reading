@@ -22,6 +22,28 @@ Each sample in `train|dev|test` has the following attributes (Changes to the ori
 - `answer`: The desired output of a prediction model.
 - **`snippet_seen`**: For dev & test set only. It indicates whether this sample asks on rule texts (`snippet`) seen in training stage or not.
 
+## Code
 
+We release the implementation of MUDERN as well as baselines as follows:
 
-## Code and models will be released soon!
+### Retriever
+
+- TF-IDF: `./retriever_tfidf/`
+
+- DPR: `./DPR/`
+
+### Reader
+
+- MUDERN: `./MUDERN/`
+
+- MP-RoBERTa: `./reader_baseline/MP-RoBERTa/`
+
+- DISCERN: `./reader_baseline/DISCERN/`
+
+- Explicit Memory Tracker: `./reader_baseline/explicit_memory_tracker/`
+
+- e3: `./reader_baseline/e3/`
+
+## Acknowledgement
+
+We use the implementation of [E3](https://github.com/vzhong/e3), [DPR](https://github.com/facebookresearch/DPR), [TF-IDF](https://github.com/efficientqa/retrieval-based-baselines), [DISCERN](https://github.com/Yifan-Gao/Discern), [Explicit Memory Tracker](https://github.com/Yifan-Gao/explicit_memory_tracker) in this work for baseline experiments.
